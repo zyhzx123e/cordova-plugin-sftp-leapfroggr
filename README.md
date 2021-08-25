@@ -6,8 +6,11 @@ works on both:
 
 [Link to Developer](https://github.com/zyhzx123e/)
 
+This is a fork to cordova-plugin-sftp-leapfroggr
+added support that upload sftp in IOS since the original only support download sftp in IOS
+
 ### Installation
-* `npm install ionic-native-sftp-leapfroggr-zyh --save`
+
 * `cordova plugin add cordova-plugin-sftp-leapfroggr-zyh`
 
 - #### IOS
