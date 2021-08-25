@@ -1,0 +1,42 @@
+{
+  "_from": "cordova-plugin-sftp-leapfroggr-zyh",
+  "_id": "cordova-plugin-sftp-leapfroggr-zyh@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-6C+vJzc8Ggpc12J88mpfjcB4z7QT3oAc72ApqgUto5RFqzycRhvW13hNYJsp4I/WeczLzP2tc15TywzbTnNU8g==",
+  "_location": "/cordova-plugin-sftp-leapfroggr-zyh",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-sftp-leapfroggr-zyh",
+    "name": "cordova-plugin-sftp-leapfroggr-zyh",
+    "escapedName": "cordova-plugin-sftp-leapfroggr-zyh",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-sftp-leapfroggr-zyh/-/cordova-plugin-sftp-leapfroggr-zyh-1.0.5.tgz",
+  "_shasum": "e548043834b3519f6e6b8d4b8b7d16ccb979d149",
+  "_spec": "cordova-plugin-sftp-leapfroggr-zyh",
+  "_where": "/Users/isitalways/Downloads/mobivaEMT_noLeap",
+  "author": {
+    "name": "Jason zyh"
+  }, 
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "sftp client plugin for uploading files to a sftp server forked by Jason",
+  "keywords": [
+    "sftp"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "cordova-plugin-sftp-leapfroggr-zyh",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.5"
+}

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-sftp-leapfroggr-zyh" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>CordovaPluginSftpLeapfroggr</name>
+    <js-module name="CordovaPluginSftpLeapfroggr" src="www/CordovaPluginSftpLeapfroggr.js">
+        <clobbers target="cordova.plugins.CordovaPluginSftpLeapfroggr" />
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="CordovaPluginSftpLeapfroggr">
+                <param name="ios-package" value="CordovaPluginSftpLeapfroggr" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/CordovaPluginSftpLeapfroggr.swift" />
+    </platform>
+    <platform name="android">
+        <!-- <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="CordovaPluginSftpLeapfroggr">
+                <param name="android-package" value="cordova-plugin-sftp-leapfroggr.CordovaPluginSftpLeapfroggr" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/CordovaPluginSftpLeapfroggr.java"
+            target-dir="src/cordova-plugin-sftp-leapfroggr/CordovaPluginSftpLeapfroggr" /> -->
+        <source-file src="src/android/CordovaPluginSftpLeapfroggr.kt" target-dir="src/org/apache/cordova/cordovapluginsftpleapfroggr" />
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="CordovaPluginSftpLeapfroggr">
+                <param name="android-package" value="org.apache.cordova.cordovapluginsftpleapfroggr.CordovaPluginSftpLeapfroggr" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+    </platform>
+
+    
+</plugin>
